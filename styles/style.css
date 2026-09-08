@@ -54,6 +54,16 @@ box-sizing: border-box;
 .square-box--four .square-box__item--third {
     align-self: flex-end;
 }
+
+.square-box--five {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.square-box--five .square-box__item--first,
+.square-box--five .square-box__item--third {
+height: 120px;
+}
 .square-box__item {
     width: 78px;
     height: 78px;
